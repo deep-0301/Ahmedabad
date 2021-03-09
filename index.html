@@ -1,5 +1,347 @@
-<html>
-  <body>
-  <h1>Hello</h1>
-  </body>
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+        <meta name="generator" content="Jekyll v4.1.1">
+        <title>Ahmedabad</title>
+
+        <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
+
+        <!-- Bootstrap core CSS -->
+        <link href="bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" href="/docs/4.5/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+        <link rel="icon" href="/docs/4.5/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+        <link rel="icon" href="/docs/4.5/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+        <link rel="manifest" href="/docs/4.5/assets/img/favicons/manifest.json">
+        <link rel="mask-icon" href="/docs/4.5/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
+        <link rel="icon" href="/docs/4.5/assets/img/favicons/favicon.ico">
+        <meta name="msapplication-config" content="/docs/4.5/assets/img/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#563d7c">
+
+
+        <style>
+            .bd-placeholder-img {
+                font-size: 1.125rem;
+                text-anchor: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+
+            @media (min-width: 768px) {
+                .bd-placeholder-img-lg {
+                    font-size: 3.5rem;
+                }
+            }
+
+        </style>
+        <!-- Custom styles for this template -->
+        <link href="carousel.css" rel="stylesheet">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                <a class="navbar-brand" href="">Ahmedabad</a>
+                <button 
+                    class="navbar-toggler" 
+                    type="button" 
+                    data-toggle="collapse" 
+                    data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="">Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="">Gallery</a>
+                        </li>
+                        <li class=" nav-item active">
+                            <a class="nav-link" href="#">News</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="">Contact</a>
+                        </li>
+                        <li class=" nav-item active">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline mt-2 mt-md-0">
+                        <input class="form-control ml-sm-5" type="text " placeholder="Search " aria-label="Search ">
+                        <button class="btn btn-danger text-light my-2 my-sm-0 mr-sm-5 mx-2"
+                            type="submit ">Search</button>
+                        <button class="btn btn-danger text-light my-2 my-sm-0 mx-2" type="submit ">Login</button>
+                        <button class="btn btn-danger text-light my-2 my-sm-0 mx-2" type="submit ">Signup</button>
+
+                    </form>
+                </div>
+            </nav>
+        </header>
+
+        <main role="main ">
+
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active ">
+                        <img src="https://www.hungrito.com/wp-content/uploads/2017/09/Unique-Dishes-That-Youve-Got-To-Try-2.png "
+                            alt="Second slide " class="responsive ">
+                        <div class="container ">
+                            <div class="carousel-caption text-left ">
+                                <h1>Example headline.</h1>
+                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi
+                                    porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                </p>
+                                <p><a class="btn btn-lg btn-primary " href="# " role="button ">Sign up today</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="https://cdn.s3waas.gov.in/s34558dbb6f6f8bb2e16d03b85bde76e2c/uploads/2018/10/2018101210.jpg "
+                            alt="Second slide " class="responsive ">
+                        <div class="container ">
+                            <div class="carousel-caption ">
+                                <h1>Another example headline.</h1>
+                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi
+                                    porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                </p>
+                                <p><a class="btn btn-lg btn-primary " href="# " role="button ">Learn more</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Jama_Masjid_-Ahmedabad_-Gujarat_-DSC004.jpg/1280px-Jama_Masjid_-Ahmedabad_-Gujarat_-DSC004.jpg "
+                            class="responsive ">
+                        <div class="container ">
+                            <div class="carousel-caption text-right ">
+                                <h1>One more for good measure.</h1>
+                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi
+                                    porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                </p>
+                                <p><a class="btn btn-lg btn-primary " href="# " role="button ">Browse gallery</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon " aria-hidden="true "></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+
+            <!-- Marketing messaging and featurettes
+        ================================================== -->
+            <!-- Wrap the rest of the page in another container to center all the content. -->
+
+            <div class="container-fluid marketing">
+
+                <!-- Three columns of text below the carousel -->
+
+                <div class="row pt-5">
+                    <div class="col-lg-4">
+                        <!-- <svg class="bd-placeholder-img rounded-circle " width="140 " height="140 "
+                            xmlns="http/svg " preserveAspectRatio="xMidYMid slice " focusable="false "
+                            role="img " aria-label="Placeholder: 140x140 ">
+                            <title>Placeholder</title>
+                            <rect width="100% " height="100% " fill="#777 " /><text x="50% " y="50% " fill="#777 "
+                                dy=".3em ">140x140</text>
+                        </svg> -->
+                        <img src="https://k6u8v6y8.stackpathcdn.com/blog/wp-content/uploads/2015/04/Untitled-design.png"
+                            alt="visitor" class="rounded-circle" height="200" width="250">
+                        <a
+                            href="https://www.google.com/travel/things-to-do?g2lb=2502548%2C4258168%2C4270442%2C4271060%2C4306835%2C4317915%2C4328159%2C4371335%2C4401769%2C4419364%2C4429191%2C4433754%2C4447566%2C4456077%2C4463263%2C4464074%2C4270859%2C4284970%2C4291517%2C4412693&hl=en-IN&gl=in&un=1&dest_mid=%2Fm%2F01d88c&dest_state_type=main&dest_src=ts&sa=X&ved=2ahUKEwiRqNSCyITtAhUM4jgGHQ5QAWEQuL0BMAB6BAgREDk#ttdm=23.048384_72.554064_11">
+                            <h2>Top Visiting places</h2>
+                        </a>
+                        <p>Popular places to see in Ahmedabad are a mix of magnificent temples, striking mosques,
+                            interesting museums, picturesque lakes, calming river-front and bits of Gandhi heritage.
+                            With so many tourist places in Ahmedabad</p>
+                        <p><a class="btn btn-secondary "
+                                href="https://www.google.com/travel/things-to-do?g2lb=2502548%2C4258168%2C4270442%2C4271060%2C4306835%2C4317915%2C4328159%2C4371335%2C4401769%2C4419364%2C4429191%2C4433754%2C4447566%2C4456077%2C4463263%2C4464074%2C4270859%2C4284970%2C4291517%2C4412693&hl=en-IN&gl=in&un=1&dest_mid=%2Fm%2F01d88c&dest_state_type=main&dest_src=ts&sa=X&ved=2ahUKEwiRqNSCyITtAhUM4jgGHQ5QAWEQuL0BMAB6BAgREDk#ttdm=23.048384_72.554064_11"
+                                role="button ">view more &raquo;</a></p>
+                    </div>
+                    <div class="col-lg-4 ">
+
+                        <img src="https://blessingsonthenet.com/img/uploads/city/gallery/aim_bn_1_1314721622.jpg"
+                            alt="visitor" class="rounded-circle" height="200" width="250">
+                        <a
+                            href="https://www.google.com/travel/hotels/Ahmedabad?g2lb=2502548%2C4258168%2C4270442%2C4271060%2C4306835%2C4317915%2C4328159%2C4371335%2C4401769%2C4419364%2C4429191%2C4433754%2C4447566%2C4456077%2C4463263%2C4464074%2C4270859%2C4284970%2C4291517%2C4412693&hl=en-IN&gl=in&un=1&ap=aAE&q=hotels%20ahmedabad&rp=ELO3vL301bKtcBC3prKS49n32SIQ6ZXM3cfDvaUeELzh5NHMmZ6ndTgBQABIAqIBEkFobWVkYWJhZCwgR3VqYXJhdA&ictx=1&sa=X&ved=0CAAQ5JsGahcKEwjo5cW2yITtAhUAAAAAHQAAAAAQAg&utm_campaign=sharing&utm_medium=link&utm_source=htls&hrf=CgUIiCcQACIDSU5SKhYKBwjkDxALGBISBwjkDxALGBMYASgAsAEAWAFoAZoBFBISQWhtZWRhYmFkLCBHdWphcmF0ogEWCgkvbS8wMWQ4OGMSCUFobWVkYWJhZKoBCgoCCCESAggvGAGqAQoKAggUEgIIGxgBqgEKCgIIHBICCFEYAaoBDwoCCCUSAwigAhICCHoYAaoBDgoCCBESAggqEgIIOBgBqgEcCgIILhICCDwSAghWEgIIOhIDCIcBEgMIgwEYAaoBCwoDCOECEgIIYxgBqgEKCgIIUBICCE8YAaoBBwoDCMsBGACqAQoKAgg1EgIIMhgBkgECIAE">
+                            <h2>Go For Dinner</h2>
+                        </a>
+
+                        <p>Hence, here are the top 15 romantic restaurants in Ahmedabad that serve authentic Gujarati
+                            cuisine, offer an exquisite ambience for your special date night, and are a must to be
+                            listed in the itinerary of your next trip to Gujarat!</p>
+                        <p><a class="btn btn-secondary "
+                                href="https://www.google.com/travel/hotels/Ahmedabad?g2lb=2502548%2C4258168%2C4270442%2C4271060%2C4306835%2C4317915%2C4328159%2C4371335%2C4401769%2C4419364%2C4429191%2C4433754%2C4447566%2C4456077%2C4463263%2C4464074%2C4270859%2C4284970%2C4291517%2C4412693&hl=en-IN&gl=in&un=1&ap=aAE&q=hotels%20ahmedabad&rp=ELO3vL301bKtcBC3prKS49n32SIQ6ZXM3cfDvaUeELzh5NHMmZ6ndTgBQABIAqIBEkFobWVkYWJhZCwgR3VqYXJhdA&ictx=1&sa=X&ved=0CAAQ5JsGahcKEwjo5cW2yITtAhUAAAAAHQAAAAAQAg&utm_campaign=sharing&utm_medium=link&utm_source=htls&hrf=CgUIiCcQACIDSU5SKhYKBwjkDxALGBISBwjkDxALGBMYASgAsAEAWAFoAZoBFBISQWhtZWRhYmFkLCBHdWphcmF0ogEWCgkvbS8wMWQ4OGMSCUFobWVkYWJhZKoBCgoCCCESAggvGAGqAQoKAggUEgIIGxgBqgEKCgIIHBICCFEYAaoBDwoCCCUSAwigAhICCHoYAaoBDgoCCBESAggqEgIIOBgBqgEcCgIILhICCDwSAghWEgIIOhIDCIcBEgMIgwEYAaoBCwoDCOECEgIIYxgBqgEKCgIIUBICCE8YAaoBBwoDCMsBGACqAQoKAgg1EgIIMhgBkgECIAE"
+                                role="button ">Go Dinner &raquo;</a></p>
+                    </div>
+                    <div class="col-lg-4 ">
+
+                        <img src="https://www.fabhotels.com/blog/wp-content/uploads/2018/08/1000x650-14.jpg"
+                            alt="visitor" class="rounded-circle" height="200" width="250">
+                        <a
+                            href="https://www.google.com/search?tbs=lf:1,lf_ui:10&tbm=lcl&sxsrf=ALeKk03wZKn120CJbqA_sNNbbZOh-FsrLA:1605443929544&q=shopping++mall+in+ahmedabad&rflfq=1&num=10&sa=X&ved=2ahUKEwiA8IHZyITtAhXjxTgGHS6PCYAQjGp6BAgVEFc&biw=1536&bih=722#rlfi=hd:;si:;mv:[[23.1247084,72.6315542],[23.0088635,72.5004429]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!1m4!1u16!2m2!16m1!1e1!1m4!1u16!2m2!16m1!1e2!2m1!1e2!2m1!1e16!2m1!1e3!3sIAE,lf:1,lf_ui:10">
+                            <h2>Shopping</h2>
+                        </a>
+                        <p>Expert recommended Top ten Shopping Malls in Ahmedabad, Gujarat. All of our shopping malls
+                            actually face a rigorous 50-Point Inspection, which includes customer reviews, history,
+                            ratings, satisfaction, trust, cost and their general
+                            excellence.
+                        </p>
+                        <p><a class="btn btn-secondary "
+                                href="https://www.google.com/search?tbs=lf:1,lf_ui:10&tbm=lcl&sxsrf=ALeKk03wZKn120CJbqA_sNNbbZOh-FsrLA:1605443929544&q=shopping++mall+in+ahmedabad&rflfq=1&num=10&sa=X&ved=2ahUKEwiA8IHZyITtAhXjxTgGHS6PCYAQjGp6BAgVEFc&biw=1536&bih=722#rlfi=hd:;si:;mv:[[23.1247084,72.6315542],[23.0088635,72.5004429]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!1m4!1u16!2m2!16m1!1e1!1m4!1u16!2m2!16m1!1e2!2m1!1e2!2m1!1e16!2m1!1e3!3sIAE,lf:1,lf_ui:10"
+                                role="button ">Shop now &raquo;</a></p>
+                    </div>
+                    <div class="col-lg-4 ">
+
+                        <img src="https://www.mumbai77.com/images/newblog/Address-Proof-Documents.jpg" alt="visitor"
+                            class="rounded-circle" height="200" width="250">
+                        <a href="indian.html">
+                            <h2>Identity proofs <span class="badge badge-danger">New</span></h2>
+                        </a>
+                        <p>Identity documents of India are increasingly used to transact and obtain government benefits
+                            in India.Ex. Aadhar card,Pan card, Passport, Driving licence, Election card</p>
+                        <p><a class="btn btn-secondary " href="indian.html" role="button ">View all &raquo;</a></p>
+                    </div>
+
+                    <div class="col-lg-4 ">
+
+                        <img src="https://rstv.nic.in/wp-content/uploads/2017/02/Gujarat-Assembly-Vidhan-Sabha.jpg"
+                            alt="visitor" class="rounded-circle" height="200" width="250">
+                        <a href="#">
+                            <h2>All Gujarat websites</h2>
+                        </a>
+                        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec
+                            elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus
+                            commodo, tortor mauris condimentum nibh.</p>
+                        <p><a class="btn btn-secondary " href="# " role="button ">View details &raquo;</a></p>
+                    </div>
+                    <!-- /.col-lg-4 -->
+                    <div class="col-lg-4 ">
+
+                        <img src="https://static.toiimg.com/photo/imgsize-355081,msid-71587788/71587788.jpg"
+                            alt="visitor" class="rounded-circle" height="200" width="250">
+                        <a href="">
+                            <h2>All Ahmedabad websites</h2>
+                        </a>
+                        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum
+                            id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                            condimentum nibh, ut fermentum massa justo sit
+                            amet risus.</p>
+                        <p><a class="btn btn-secondary " href="# " role="button ">View details &raquo;</a></p>
+                    </div>
+                    <!-- /.col-lg-4 -->
+                </div>
+                <!-- /.row -->
+
+
+                <!-- START THE FEATURETTES -->
+                <div class="fea">
+
+                    <div class="facts-area text-center text-capitalize">
+                        <div class="container-fluid">
+                            <div class="row-fea">
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="fact-container mb-sm-50">
+                                        <div class="single-fact">
+                                            <h3 class="fact-title c3 f2 fw-3 text-capitalize">Population</h3>
+                                            <div class="numscroller fact-num cw f1" data-slno='15' data-min="0"
+                                                data-max="493" data-delay='30' data-increment="5">55,70,000</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="fact-container mb-sm-50">
+                                        <div class="single-fact">
+                                            <h3 class="fact-title c3 f2 fw-3 text-capitalize">Literacy Rate</h3>
+                                            <div class="numscroller fact-num cw f1" data-slno='15' data-min="0"
+                                                data-max="750" data-delay='30' data-increment="5">86.65%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="fact-container mb-xs-50">
+                                        <div class="single-fact">
+                                            <h3 class="fact-title c3 f2 fw-3 text-capitalize">Area</h3>
+                                            <div class="numscroller fact-num cw f1" data-slno='15' data-min="0"
+                                                data-max="458" data-delay='30' data-increment="5">464</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="fact-container">
+                                        <div class="single-fact">
+                                            <h3 class="fact-title c3 f2 fw-3 text-capitalize">blocks
+                                            </h3>
+                                            <div class="numscroller fact-num cw f1" data-slno='35' data-min="0"
+                                                data-max="670" data-delay='30' data-increment="5">11</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="featurette-divider ">
+
+                <!-- /END THE FEATURETTES -->
+
+            </div>
+            <!-- /.container -->
+
+
+            <!-- FOOTER -->
+            <footer class="container-fluid bg-dark text-light py-1">
+                <p class="float-right "><a href="# ">Back to top</a></p>
+                <p>&copy; 2017-2020 Company, Inc. &middot; <a href="# ">Privacy</a> &middot; <a href="# ">Terms</a></p>
+            </footer>
+        </main>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js "
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj "
+            crossorigin="anonymous "></script>
+        <script>
+            window.jQuery || document.write('<script src="/docs/4.5/assets/js/vendor/jquery.slim.min.js "><\/script>')
+        </script>
+        <script src="/docs/4.5/dist/js/bootstrap.bundle.min.js "
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx "
+            crossorigin="anonymous "></script>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js "
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo "
+            crossorigin="anonymous "></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js "
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 "
+            crossorigin="anonymous "></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js "
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM "
+            crossorigin="anonymous "></script>
+    </body>
+
 </html>
